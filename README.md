@@ -1,4 +1,4 @@
-[Leia esta página em português]()
+[Leia esta página em português](https://github.com/marco-teixeira/package_compiler/blob/master/README-pt.md)
 
 
 Description
