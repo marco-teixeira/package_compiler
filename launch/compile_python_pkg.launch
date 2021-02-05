@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="pkg_name" default="package_compiler" />
+	<arg name="dir_dest" default="" />
+
+	<node name="package_compiler" pkg="package_compiler" type="compile.py" output="screen" > 
+		<param name="pkg_name" type="String" value="$(arg pkg_name)" />
+		<param name="dir_dest" type="String" value="$(arg dir_dest)" />
+	</node>
+
+</launch>
